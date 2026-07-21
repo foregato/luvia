@@ -43,7 +43,7 @@ export default function Navbar() {
             alt="Luvia Marketing Digital"
             width={200}     // ajuste o tamanho conforme necessário
             height={70}
-            className="h-8 w-auto"
+            className="h-16 w-auto"
             priority
           />
         </a>
