@@ -4,7 +4,7 @@ import { useState, type FormEvent } from "react";
 import { motion } from "framer-motion";
 import { Instagram, MessageCircle, Mail, ArrowUpRight } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5511999999999"; // TODO: atualizar com o número real da agência
+const WHATSAPP_NUMBER = "5519982782509"; // TODO: atualizar com o número real da agência
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -65,14 +65,14 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://www.instagram.com/luvia.digital/"
+              href="https://www.instagram.com/luvia.mdigital/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-6 py-4 transition-colors duration-300 hover:border-violet/50"
             >
               <span className="flex items-center gap-3 text-paper">
                 <Instagram className="text-lilac" size={20} />
-                @luvia.digital
+                @luvia.mdigital
               </span>
               <ArrowUpRight
                 size={16}
@@ -81,12 +81,12 @@ export default function Contact() {
             </a>
 
             <a
-              href="mailto:ola@luvia.digital"
+              href="mailto:ola@luvia.mdigital"
               className="group flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-6 py-4 transition-colors duration-300 hover:border-violet/50"
             >
               <span className="flex items-center gap-3 text-paper">
                 <Mail className="text-lilac" size={20} />
-                ola@luvia.digital
+                ola@luvia.mdigital
               </span>
               <ArrowUpRight
                 size={16}

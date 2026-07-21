@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
 
@@ -16,19 +17,22 @@ export default function About() {
           className="relative mx-auto w-full max-w-sm"
         >
           <div className="absolute -inset-4 rounded-xl2 bg-gradient-to-br from-violet/25 via-lilac/20 to-transparent blur-2xl" />
-          <div className="relative aspect-[4/5] overflow-hidden rounded-xl2 border border-ash/10 bg-gradient-to-br from-azure via-violet to-lilac shadow-card">
-            {/*
-              Substitua pela foto real da fundadora em /public/fundadora.jpg
-              e troque este bloco por:
-              <Image src="/fundadora.jpg" alt="Fundadora da Luvia" fill className="object-cover" />
-            */}
-            <div className="flex h-full items-center justify-center">
-              <span className="font-display text-7xl italic text-paper/90">L.</span>
-            </div>
+
+          <div className="relative aspect-[4/5] overflow-hidden rounded-xl2 border border-ash/10 shadow-card">
+            <Image
+              src="/fundadoraluana.png"
+              alt="Luana - Fundadora da Luvia"
+              fill
+              priority
+              className="object-cover"
+            />
           </div>
+
           <div className="absolute -bottom-6 -right-6 rounded-2xl border border-ash/10 bg-ink px-5 py-4 shadow-card">
-            <p className="font-display text-lg italic text-paper">Camila Duarte</p>
-            <p className="text-xs text-paper/60">Fundadora &amp; Diretora de Criação</p>
+            <p className="font-display text-lg italic text-paper">Luana</p>
+            <p className="text-xs text-paper/60">
+              Fundadora &amp; Diretora de Criação
+            </p>
           </div>
         </motion.div>
 
@@ -40,6 +44,7 @@ export default function About() {
           transition={{ duration: 0.8, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
         >
           <p className="eyebrow mb-5 text-ash">Sobre a Luvia</p>
+
           <h2 className="text-balance font-display text-4xl leading-tight text-ink sm:text-5xl">
             Nascemos para dar forma e voz a marcas com{" "}
             <span className="italic text-violet">personalidade</span>.
@@ -47,25 +52,24 @@ export default function About() {
 
           <div className="mt-8 space-y-5 text-[1.05rem] leading-relaxed text-ash">
             <p>
-              A Luvia nasceu em 2019 da vontade de fazer marketing digital
-              de um jeito diferente: menos fórmula pronta, mais estratégia
-              construída sob medida para cada marca. O nome carrega essa
-              ideia — um caminho iluminado por clareza e consistência.
+              A Luvia nasceu em 2019 da vontade de fazer marketing digital de um
+              jeito diferente: menos fórmula pronta, mais estratégia construída
+              sob medida para cada marca. O nome carrega essa ideia — um caminho
+              iluminado por clareza e consistência.
             </p>
+
             <p>
-              Hoje somos um time multidisciplinar que combina design,
-              redação, tráfego pago e análise de dados para criar
-              presenças digitais que não apenas parecem bonitas, mas
-              geram resultado de verdade.
+              Hoje somos um time multidisciplinar que combina design, redação,
+              tráfego pago e análise de dados para criar presenças digitais que
+              não apenas parecem bonitas, mas geram resultado de verdade.
             </p>
           </div>
 
           <div className="mt-9 flex items-start gap-4 rounded-2xl border border-ash/10 bg-white/60 p-6">
             <Quote className="mt-1 shrink-0 text-violet" size={28} />
             <p className="font-display text-lg italic leading-snug text-ink">
-              Acredito que toda marca tem uma história única para contar —
-              nosso trabalho é encontrar essa história e traduzi-la em
-              estratégia.
+              Acredito que toda marca tem uma história única para contar — nosso
+              trabalho é encontrar essa história e traduzi-la em estratégia.
             </p>
           </div>
         </motion.div>
