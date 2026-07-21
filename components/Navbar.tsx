@@ -41,8 +41,8 @@ export default function Navbar() {
           <Image
             src="/logoluvia.png"
             alt="Luvia Marketing Digital"
-            width={180}     // ajuste o tamanho conforme necessário
-            height={50}
+            width={200}     // ajuste o tamanho conforme necessário
+            height={70}
             className="h-8 w-auto"
             priority
           />
