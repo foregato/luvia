@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { clsx } from "clsx";
+import Image from "next/image";
 
 const LINKS = [
   { href: "#home", label: "Home" },
@@ -35,8 +36,16 @@ export default function Navbar() {
       )}
     >
       <nav className="container-luvia flex items-center justify-between py-5">
-        <a href="#home" className="font-display text-xl tracking-tight text-paper">
-          Luvia<span className="text-violet-soft">.</span>
+        {/* Logo como imagem */}
+        <a href="#home" className="flex items-center">
+          <Image
+            src="/logoluvia.png"
+            alt="Luvia Marketing Digital"
+            width={140}     // ajuste o tamanho conforme necessário
+            height={40}
+            className="h-8 w-auto"
+            priority
+          />
         </a>
 
         <ul className="hidden md:flex items-center gap-9">
