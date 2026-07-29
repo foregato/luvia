@@ -19,11 +19,11 @@ export default function Button({
 
   const variants: Record<string, string> = {
     primary:
-      "bg-ink text-paper hover:bg-rose hover:-translate-y-0.5 hover:shadow-card active:translate-y-0",
-    secondary:
       "bg-rose text-paper hover:bg-rose-dark hover:-translate-y-0.5 hover:shadow-card active:translate-y-0",
+    secondary:
+      "bg-rose-light text-ink hover:bg-rose hover:text-paper hover:-translate-y-0.5 hover:shadow-card active:translate-y-0",
     ghost:
-      "border border-line text-ink hover:border-rose hover:text-rose bg-transparent",
+      "border border-line text-ink hover:border-rose-light hover:text-rose-light bg-transparent",
   };
 
   return (

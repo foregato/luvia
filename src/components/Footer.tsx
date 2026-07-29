@@ -17,7 +17,7 @@ export default function Footer() {
               href={INSTAGRAM_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-5 inline-flex h-10 w-10 items-center justify-center rounded-full border border-paper/20 text-paper/80 transition-colors hover:border-rose hover:text-rose"
+              className="mt-5 inline-flex h-10 w-10 items-center justify-center rounded-full border border-paper/20 text-paper/80 transition-colors hover:border-rose-light hover:text-rose-light"
               aria-label="Instagram da Luvia"
             >
               <Icon name="instagram" className="h-4 w-4" />
@@ -33,7 +33,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-sm text-paper/70 transition-colors hover:text-rose"
+                    className="text-sm text-paper/70 transition-colors hover:text-rose-light"
                   >
                     {link.label}
                   </a>
@@ -62,7 +62,7 @@ export default function Footer() {
             href={DEVELOPER_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[11px] text-paper/30 opacity-60 transition-opacity duration-300 hover:text-rose hover:opacity-100"
+            className="text-[11px] text-paper/30 opacity-60 transition-opacity duration-300 hover:text-rose-light hover:opacity-100"
           >
             Desenvolvido por {DEVELOPER_NAME}
           </a>

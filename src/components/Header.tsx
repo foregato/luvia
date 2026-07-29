@@ -18,7 +18,6 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Trava o scroll do body quando o menu mobile está aberto.
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     return () => {
@@ -45,7 +44,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-ink/70 transition-colors hover:text-rose"
+              className="text-sm font-medium text-ink/70 transition-colors hover:text-rose-light"
             >
               {link.label}
             </a>
@@ -89,7 +88,7 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="rounded-lg px-3 py-3 text-base font-medium text-ink/80 transition-colors hover:bg-blush hover:text-rose"
+                className="rounded-lg px-3 py-3 text-base font-medium text-ink/80 transition-colors hover:bg-blush hover:text-rose-light"
               >
                 {link.label}
               </a>
