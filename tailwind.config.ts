@@ -5,37 +5,30 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Design tokens — Luvia brand (Dark Theme)
-
-        ink: "#FFFFFF",       // texto principal
-        paper: "#000000",     // fundo principal
-        blush: "#0f0f11",     // fundo de seções
-
+        // Design tokens — Luvia brand
+        ink: "#211B1E",       // near-black warm text
+        paper: "#FFFCFD",     // page background, soft warm white
+        blush: "#FDF1F4",     // soft section background
         rose: {
-          DEFAULT: "#8b5cf6", // roxo principal
-          light: "#ec4899",   // rosa para destaques
-          dark: "#3b82f6",    // azul para hover/gradientes
+          DEFAULT: "#D6416A", // primary brand pink
+          light: "#F4B8C8",   // secondary pink for accents/badges
+          dark: "#A82C4E",    // hover / deep accent
         },
-
-        mist: "#a1a1aa",      // texto secundário
-        line: "#27272a",      // bordas
+        mist: "#8A7E82",      // muted secondary text
+        line: "#F1E3E7",      // hairline borders
       },
-
       fontFamily: {
         display: ["var(--font-fraunces)", "Georgia", "serif"],
         body: ["var(--font-inter)", "system-ui", "sans-serif"],
         mono: ["var(--font-space-mono)", "monospace"],
       },
-
       borderRadius: {
         xl2: "1.75rem",
       },
-
       boxShadow: {
-        soft: "0 20px 45px -25px rgba(0, 0, 0, 0.45)",
-        card: "0 10px 30px -15px rgba(139, 92, 246, 0.30)",
+        soft: "0 20px 45px -25px rgba(33, 27, 30, 0.25)",
+        card: "0 10px 30px -15px rgba(214, 65, 106, 0.25)",
       },
-
       keyframes: {
         fadeUp: {
           "0%": { opacity: "0", transform: "translateY(18px)" },
@@ -46,7 +39,6 @@ const config: Config = {
           "100%": { opacity: "1" },
         },
       },
-
       animation: {
         fadeUp: "fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) both",
         fadeIn: "fadeIn 0.6s ease-out both",

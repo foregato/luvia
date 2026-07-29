@@ -2,20 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* compensa o Header fixo ao usar âncoras */
+}
 
-  body {
-    @apply overflow-x-hidden bg-paper text-ink;
-  }
+body {
+  overflow-x: hidden;
+}
 
-  ::selection {
-    background-color: #ec4899; /* rose.light */
-    color: #ffffff; /* ink */
-  }
+::selection {
+  background-color: theme("colors.rose.light");
+  color: theme("colors.ink");
 }
 
 @media (prefers-reduced-motion: reduce) {
