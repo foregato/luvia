@@ -5,7 +5,7 @@ import Icon from "@/components/Icon";
 
 const differentials = [
   "Estratégia personalizada para cada marca",
-  "Produção de conteúdo autoral, sem templates genéricos",
+  "Produção de conteúdo com identidade visual",
   "Comunicação direta e acompanhamento próximo",
   "Relatórios simples de entender, sem enrolação",
 ];

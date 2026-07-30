@@ -18,7 +18,7 @@ export default function Hero() {
           </h1>
           <p className="mt-6 max-w-md text-base leading-relaxed text-mist md:text-lg">
             Cuidamos das redes sociais da sua marca com estratégia, criação de
-            conteúdo e uma direção de arte que faz sua audiência parar o scroll.
+            conteúdo e uma direção de arte que faz sua audiência parar de procurar.
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <Button href="#contato" variant="primary">
@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="relative animate-fadeUp [animation-delay:.15s]">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-xl2 shadow-soft md:max-w-md">
             <Image
-              src="/images/hero.svg"
+              src="/images/fotos/luanatrabalhando.jpg"
               alt="Conteúdo produzido pela Luvia para redes sociais"
               fill
               priority
