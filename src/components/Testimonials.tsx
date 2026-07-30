@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { testimonials } from "@/data/feedbacks";
+import { testimonials } from "@/data/testimonials";
 import Container from "@/components/Container";
 import SectionTitle from "@/components/SectionTitle";
 
