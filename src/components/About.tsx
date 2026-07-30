@@ -18,7 +18,7 @@ export default function About() {
           <SectionTitle
             eyebrow="Sobre a Luvia"
             title="Marketing e conteúdo com identidade, não com fórmula pronta"
-            description="Somos uma equipe de social media e criação de conteúdo que acredita que toda marca tem uma história própria para contar — e nosso trabalho é encontrar a forma certa de contá-la."
+            description="Somos uma equipe de social media e criação de conteúdo que acredita que toda marca tem uma história própria para contar, e nosso trabalho é encontrar a forma certa de contá-la."
           />
           <ul className="mt-8 space-y-4">
             {differentials.map((item) => (
@@ -37,7 +37,7 @@ export default function About() {
         <div className="order-1 md:order-2">
           <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden rounded-xl2 shadow-soft">
             <Image
-              src="/images/hero.svg"
+              src="/images/fotos/fotoluana.png"
               alt="Bastidores da produção de conteúdo da Luvia"
               fill
               className="object-cover"
