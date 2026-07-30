@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Container from "@/components/Container";
 import Icon from "@/components/Icon";
 import Button from "@/components/Button";
 import { NAV_LINKS, WHATSAPP_URL } from "@/lib/constants";
 import { cn } from "@/utils/cn";
+import logo from "@/assets/logo/logodaluviaSF.png";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -35,8 +37,15 @@ export default function Header() {
       )}
     >
       <Container className="flex h-20 items-center justify-between">
-        <a href="#hero" className="font-display text-2xl tracking-tight text-ink">
-          Luvia
+        <a href="#hero" className="flex items-center">
+          <Image
+            src={logo}
+            alt="Luvia"
+            width={140}
+            height={40}
+            className="h-20 w-auto"
+            priority
+          />
         </a>
 
         <nav className="hidden items-center gap-9 md:flex">

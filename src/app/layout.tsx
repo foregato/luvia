@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter, Space_Mono } from "next/font/google";
-import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -27,6 +26,10 @@ export const metadata: Metadata = {
   title: "Luvia — Social Media & Marketing Digital",
   description:
     "Luvia é uma agência de social media, marketing digital e criação de conteúdo. Estratégia, produção e resultado para a sua marca nas redes sociais.",
+  icons: {
+    icon: "/images/logo/logodaluviaSF.png",
+    apple: "/images/logo/logodaluviaSF.png",
+  },
 };
 
 export default function RootLayout({
