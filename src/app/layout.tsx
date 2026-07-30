@@ -24,7 +24,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Luvia — Social Media & Marketing Digital",
+  title: "Luvia Agência",
   description:
     "Luvia é uma agência de social media, marketing digital e criação de conteúdo. Estratégia, produção e resultado para a sua marca nas redes sociais.",
   icons: {
