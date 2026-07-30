@@ -1,10 +1,10 @@
 export type Testimonial = {
   id: number;
   name: string;
-  role: string;        // cargo ou empresa
-  avatar?: string;     // opcional: caminho da imagem em /public/images/avatars/
-  content: string;
-  rating?: number;     // opcional: de 1 a 5
+  role: string; // cargo ou empresa
+  image: string; // caminho em /public/images/testimonials/
+  avatar?: string; // opcional
+  rating?: number; // opcional: de 1 a 5
 };
 
 export const testimonials: Testimonial[] = [
@@ -12,14 +12,21 @@ export const testimonials: Testimonial[] = [
     id: 1,
     name: "Ana Clara",
     role: "CEO da Lumina Store",
-    content: "A Luvia transformou nossa presença digital. As estratégias de conteúdo aumentaram nosso engajamento em 200% em apenas três meses.",
+    image: "/images/feedbacks/feedback_1.PNG",
     rating: 5,
   },
   {
     id: 2,
     name: "Rafael Santos",
     role: "Fundador da FitLife",
-    content: "Profissionalismo impecável. O videomaker capturou exatamente a essência da nossa marca, e os resultados nas redes foram surpreendentes.",
+    image: "/images/feedbacks/feedback_2.PNG",
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: "Mariana Costa",
+    role: "Designer Gráfica na Creative Studio",
+    image: "/images/feedbacks/feedback_3.PNG",
     rating: 5,
   },
   // adicione quantos quiser

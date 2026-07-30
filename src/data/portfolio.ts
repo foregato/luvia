@@ -3,15 +3,22 @@ export type PortfolioItem = {
   title: string;
   category: string;
   description: string;
-  image: string;
+  /** Link do post ou reel do Instagram (ex: https://www.instagram.com/reel/XXXX/) */
+  instagramVideo?: string;
+  /** Fallback de imagem (opcional, caso o embed não carregue) */
+  image?: string;
   instagram1?: string;
   instagram2?: string;
 };
 
 /**
  * Para adicionar um novo trabalho ao portfólio:
- * 1. Coloque a imagem em /public/images/portfolio/
- * 2. Adicione um novo objeto neste array, apontando "image" para o arquivo
+ * 1. Pegue o link público do post ou reel no Instagram
+ * 2. Adicione um novo objeto neste array com o campo "instagramVideo"
+ *
+ * Exemplo de link válido:
+ * - Reel:  https://www.instagram.com/reel/ABC123xyz/
+ * - Post:  https://www.instagram.com/p/ABC123xyz/
  *
  * Não é necessário alterar nenhum componente. O componente Portfolio
  * lê este array automaticamente e gera os cards.
@@ -25,24 +32,23 @@ export const portfolio: PortfolioItem[] = [
     title: "Estúdio Alma",
     category: "Gestão de redes sociais",
     description: "Conteúdo mensal e identidade visual para estúdio de yoga.",
-    image: "/images/portfolio/imagem01.svg",
+    instagramVideo: "https://www.instagram.com/reel/SEU_CODIGO_AQUI/",
     instagram1: "https://instagram.com/",
   },
   {
     id: 2,
-    title: "Café Raiz",
+    title: "WeBella",
     category: "Criação de conteúdo",
     description: "Fotos e vídeos de produto para cafeteria de bairro.",
-    image: "/images/portfolio/imagem02.svg",
-    instagram1: "https://instagram.com/",
-    instagram2: "https://instagram.com/",
+    instagramVideo: "https://www.instagram.com/reels/DZOEEnGPxNi/",
+    instagram1: "https://www.instagram.com/webellastudio/",
   },
   {
     id: 3,
     title: "Nômade Store",
     category: "Marketing digital",
     description: "Campanhas de tráfego pago para e-commerce de moda.",
-    image: "/images/portfolio/imagem03.svg",
+    instagramVideo: "https://www.instagram.com/reel/SEU_CODIGO_AQUI/",
     instagram1: "https://instagram.com/",
   },
   {
@@ -50,14 +56,14 @@ export const portfolio: PortfolioItem[] = [
     title: "Clínica Vívida",
     category: "Identidade visual",
     description: "Direção de arte e padronização de feed para clínica estética.",
-    image: "/images/portfolio/imagem04.svg",
+    instagramVideo: "https://www.instagram.com/reel/SEU_CODIGO_AQUI/",
   },
   {
     id: 5,
     title: "Sabor & Cia",
     category: "Gestão de redes sociais",
     description: "Estratégia de conteúdo e crescimento para restaurante.",
-    image: "/images/portfolio/imagem05.svg",
+    instagramVideo: "https://www.instagram.com/reel/SEU_CODIGO_AQUI/",
     instagram1: "https://instagram.com/",
     instagram2: "https://instagram.com/",
   },
@@ -66,7 +72,7 @@ export const portfolio: PortfolioItem[] = [
     title: "Bloom Studio",
     category: "Criação de conteúdo",
     description: "Cobertura de eventos e reels para ateliê de flores.",
-    image: "/images/portfolio/imagem06.svg",
+    instagramVideo: "https://www.instagram.com/reel/SEU_CODIGO_AQUI/",
     instagram1: "https://instagram.com/",
   },
 ];
