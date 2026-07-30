@@ -43,9 +43,16 @@ export const services: Service[] = [
   },
   {
     id: 6,
-    icon: "chat",
-    name: "Consultoria de marca",
+    icon: "sparkles", // ou "users" se preferir
+    name: "Consultoria individual e para empresas",
     description:
-      "Diagnóstico e orientação estratégica para posicionar sua marca nas redes sociais.",
+      "Atendimento personalizado para profissionais autônomos e negócios de todos os portes.",
+  },
+  {
+    id: 7,
+    icon: "camera", // ou "film"
+    name: "Videomaker",
+    description:
+      "Produção de vídeos institucionais, depoimentos, conteúdos para redes sociais e materiais promocionais.",
   },
 ];
