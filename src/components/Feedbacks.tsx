@@ -1,19 +1,21 @@
 "use client";
 
 import Image from "next/image";
-import { testimonials } from "@/data/testimonials";
+import { testimonials } from "@/data/feedbacks";
 import Container from "@/components/Container";
 import SectionTitle from "@/components/SectionTitle";
 
 export default function Testimonials() {
   return (
     <section id="feedbacks" className="bg-blush py-24 md:py-32">
-      <Container>
-        <SectionTitle
-          eyebrow="Feedbacks"
-          title="O que nossos clientes dizem"
-          align="center"
-        />
+  <Container>
+    <SectionTitle
+      eyebrow="Feedbacks"
+      title="O que nossos clientes dizem"
+      align="center"
+      description="Resultados reais de quem já trabalhou com a Luvia."
+    />
+    {/* resto igual */}
 
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((item) => (
