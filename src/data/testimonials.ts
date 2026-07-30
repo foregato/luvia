@@ -10,21 +10,35 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Ana Clara",
+    name: "Anônimo",
     role: "CEO da Lumina Store",
     image: "/images/feedbacks/feedback_1.PNG",
     rating: 5,
   },
   {
     id: 2,
-    name: "Rafael Santos",
+    name: "Anônimo",
     role: "Fundador da FitLife",
     image: "/images/feedbacks/feedback_2.PNG",
     rating: 5,
   },
   {
     id: 3,
-    name: "Mariana Costa",
+    name: "Anônimo",
+    role: "Designer Gráfica na Creative Studio",
+    image: "/images/feedbacks/feedback_3.PNG",
+    rating: 5,
+  },
+   {
+    id: 4,
+    name: "Anônimo",
+    role: "Designer Gráfica na Creative Studio",
+    image: "/images/feedbacks/feedback_4.PNG",
+    rating: 5,
+  },
+   {
+    id: 5,
+    name: "Anônimo",
     role: "Designer Gráfica na Creative Studio",
     image: "/images/feedbacks/feedback_3.PNG",
     rating: 5,
