@@ -29,19 +29,20 @@ export const testimonials: Testimonial[] = [
     image: "/images/feedbacks/feedback_3.PNG",
     rating: 5,
   },
-   {
+    {
     id: 4,
-    name: "Cliente Luvia há 1 Ano",
+    name: "Cliente Luvia há 2 Meses",
     role: "",
     image: "/images/feedbacks/feedback_4.PNG",
     rating: 5,
   },
-   {
+    {
     id: 5,
-    name: "Cliente Luvia há 11 Meses",
+    name: "Cliente Luvia há 2 Meses",
     role: "",
     image: "/images/feedbacks/feedback_5.PNG",
     rating: 5,
   },
+   
   // adicione quantos quiser
 ];
