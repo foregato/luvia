@@ -19,7 +19,13 @@ const contactItems: { icon: IconName; label: string; value: string; href: string
   {
     icon: "instagram",
     label: "Instagram",
-    value: "@luvia",
+    value: "@luvia.mdigital",
+    href: INSTAGRAM_URL,
+  },
+  {
+    icon: "instagram",
+    label: "Instagram",
+    value: "@luanacostasm",
     href: INSTAGRAM_URL,
   },
   {
@@ -28,12 +34,7 @@ const contactItems: { icon: IconName; label: string; value: string; href: string
     value: EMAIL,
     href: `mailto:${EMAIL}`,
   },
-  {
-    icon: "pin",
-    label: "Endereço",
-    value: ADDRESS,
-    href: "#",
-  },
+ 
 ];
 
 export default function Contact() {
