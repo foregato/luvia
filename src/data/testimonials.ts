@@ -10,37 +10,37 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Anônimo",
+    name: "Cliente Luvia há 6 Meses",
     role: "",
     image: "/images/feedbacks/feedback_1.PNG",
     rating: 5,
   },
   {
     id: 2,
-    name: "Anônimo",
+    name: "Cliente Luvia há 4 Meses",
     role: "",
     image: "/images/feedbacks/feedback_2.PNG",
     rating: 5,
   },
   {
     id: 3,
-    name: "Anônimo",
+    name: "Cliente Luvia há 2 Meses",
     role: "",
     image: "/images/feedbacks/feedback_3.PNG",
     rating: 5,
   },
    {
     id: 4,
-    name: "Anônimo",
+    name: "Cliente Luvia há 1 Ano",
     role: "",
     image: "/images/feedbacks/feedback_4.PNG",
     rating: 5,
   },
    {
     id: 5,
-    name: "Anônimo",
+    name: "Cliente Luvia há 11 Meses",
     role: "",
-    image: "/images/feedbacks/feedback_3.PNG",
+    image: "/images/feedbacks/feedback_5.PNG",
     rating: 5,
   },
   // adicione quantos quiser
