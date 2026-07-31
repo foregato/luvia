@@ -8,7 +8,6 @@ export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURICo
 )}`;
 
 export const INSTAGRAM_URL = "https://instagram.com/luvia.mdigital";
-export const INSTAGRAM_URL = "https://instagram.com/luanacostasm";
 export const EMAIL = "luanacostaaraujo011016@gmail.com";
 export const ADDRESS = "Louveira, SP";
 
