@@ -26,7 +26,7 @@ const contactItems: { icon: IconName; label: string; value: string; href: string
     icon: "instagram",
     label: "Instagram",
     value: "@luanacostasm",
-    href: INSTAGRAM_URL,
+    href: "https://www.instagram.com/luanacostasm/",
   },
   {
     icon: "mail",
