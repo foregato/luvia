@@ -1,13 +1,14 @@
 // Informações de contato da Luvia — centralizadas para fácil manutenção.
 export const SITE_NAME = "Luvia";
 
-export const WHATSAPP_NUMBER = "5519982782609"; // apenas dígitos, com DDI e DDD
+export const WHATSAPP_NUMBER = "5519982782509"; // apenas dígitos, com DDI e DDD
 export const WHATSAPP_MESSAGE = "Olá! Vim pelo site e gostaria de um orçamento.";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
   WHATSAPP_MESSAGE
 )}`;
 
 export const INSTAGRAM_URL = "https://instagram.com/luvia.mdigital";
+export const INSTAGRAM_URL = "https://instagram.com/luanacostasm";
 export const EMAIL = "luanacostaaraujo011016@gmail.com";
 export const ADDRESS = "Louveira, SP";
 
